@@ -57,7 +57,9 @@ keycode  65  =  space           space           nobreakspace            U202F
 
 keycode 108  =  Mode_switch     Mode_switch
 
-! Comment these 2 lines if you want caps lock unmodified
+! Uncomment this line to restore caps lock.
+keycode  66  =  Caps_Lock       Caps_Lock       Caps_Lock               Caps_Lock
+! Uncomment these 2 lines to remap caps lock to backspace.
 !keycode  66  =  BackSpace       BackSpace       BackSpace               BackSpace
 !clear Lock
 
